@@ -15,9 +15,9 @@ fn machines() -> HashMap<String, String> {
     let mut m = HashMap::new();
     m.insert("localhost".to_string(), "127.0.0.1".to_string());
     // format : "nom_affichage" => "ip"
-    m.insert("PC-01-Jeudieu Danielle".to_string(), "10.193.99.96".to_string());
-    m.insert("PC-02-Kitio Gerbeau".to_string(), "192.168.1.129".to_string());
-    m.insert("PC-03-Feupa Nathan".to_string(), "192.168.1.102".to_string());
+    m.insert("PC-01-Jeudieu Danielle".to_string(), "192.168.1.102".to_string());
+    m.insert("PC-02-Kitio Gerbeau".to_string(), "192.168.1.103".to_string());
+    m.insert("PC-03-Feupa Nathan".to_string(), "192.168.1.104".to_string());
     m.insert("Franck".to_string(), "192.168.1.105".to_string());
     // Ajouter autant de lignes que d'étudiants
     m
